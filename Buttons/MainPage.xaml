@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Buttons.MainPage">
+
+    <StackLayout>
+        <Button 
+            BackgroundColor="Orange"
+            CornerRadius="45"
+            BorderWidth="3"
+            BorderColor="black"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            WidthRequest="300"
+            HeightRequest="300"
+            Opacity="1"
+            Padding="10"
+            Margin="10"
+            IsEnabled="True"
+            IsVisible="True"
+            Rotation="0"
+            RotationX="0"
+            RotationY="0"
+               
+            
+            
+            Text="Click ME"
+            TextColor="#ffffff"
+            FontSize="30"
+            FontAttributes="Bold"
+            TextTransform="Lowercase"
+            CharacterSpacing="3"
+            ImageSource="photo.png"
+            ContentLayout="Left"
+            />
+
+    </StackLayout>
+
+</ContentPage>
